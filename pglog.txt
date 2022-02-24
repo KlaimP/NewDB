@@ -1,0 +1,123 @@
+2022-01-08 04:04:53.823 MSK [1898] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-08 04:04:53.823 MSK [1898] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-08 04:04:53.836 MSK [1898] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-08 04:04:53.862 MSK [1899] LOG:  database system was shut down at 2022-01-08 03:44:45 MSK
+2022-01-08 04:04:53.891 MSK [1898] LOG:  database system is ready to accept connections
+2022-01-08 04:12:34.747 MSK [1898] LOG:  received smart shutdown request
+2022-01-08 04:12:34.756 MSK [1898] LOG:  background worker "logical replication launcher" (PID 1905) exited with exit code 1
+2022-01-08 04:12:34.756 MSK [1900] LOG:  shutting down
+2022-01-08 05:05:51.836 MSK [1894] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-08 05:05:51.838 MSK [1894] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-08 05:05:51.856 MSK [1894] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-08 05:05:51.887 MSK [1895] LOG:  database system was shut down at 2022-01-08 04:12:34 MSK
+2022-01-08 05:05:51.921 MSK [1894] LOG:  database system is ready to accept connections
+2022-01-08 05:06:00.881 MSK [1894] LOG:  received fast shutdown request
+2022-01-08 05:06:00.888 MSK [1894] LOG:  aborting any active transactions
+2022-01-08 05:06:00.889 MSK [1894] LOG:  background worker "logical replication launcher" (PID 1901) exited with exit code 1
+2022-01-08 05:06:00.889 MSK [1896] LOG:  shutting down
+2022-01-08 05:06:00.946 MSK [1894] LOG:  database system is shut down
+2022-01-18 11:29:35.696 MSK [1777] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-18 11:29:35.700 MSK [1777] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-18 11:29:35.706 MSK [1777] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-18 11:29:35.720 MSK [1778] LOG:  database system shutdown was interrupted; last known up at 2022-01-08 05:27:13 MSK
+2022-01-18 11:29:35.859 MSK [1778] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-01-18 11:29:35.869 MSK [1778] LOG:  redo starts at 0/18CDBA0
+2022-01-18 11:29:35.869 MSK [1778] LOG:  invalid record length at 0/18CDBD8: wanted 24, got 0
+2022-01-18 11:29:35.869 MSK [1778] LOG:  redo done at 0/18CDBA0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-01-18 11:29:35.893 MSK [1777] LOG:  database system is ready to accept connections
+2022-01-18 11:30:55.874 MSK [1787] ERROR:  syntax error at or near "-" at character 21
+2022-01-18 11:30:55.874 MSK [1787] STATEMENT:  create database g394-podyapolskiy
+	;
+2022-01-18 11:31:38.465 MSK [1810] ERROR:  relation "lab_view.fn" does not exist at character 29
+2022-01-18 11:31:38.465 MSK [1810] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.fn;
+2022-01-18 11:31:38.467 MSK [1810] ERROR:  relation "lab_view.fn_backup" does not exist at character 29
+2022-01-18 11:31:38.467 MSK [1810] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.fn_backup;
+2022-01-18 11:31:38.469 MSK [1810] ERROR:  relation "lab_view.positive" does not exist at character 29
+2022-01-18 11:31:38.469 MSK [1810] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.positive;
+2022-01-18 11:31:38.471 MSK [1810] ERROR:  relation "lab_view.roots" does not exist at character 29
+2022-01-18 11:31:38.471 MSK [1810] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.roots;
+2022-01-18 11:31:38.472 MSK [1810] ERROR:  relation "lab_view.roots_group" does not exist at character 29
+2022-01-18 11:31:38.472 MSK [1810] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.roots_group;
+2022-01-18 12:14:36.634 MSK [1787] ERROR:  syntax error at or near "tablefn" at character 7
+2022-01-18 12:14:36.634 MSK [1787] STATEMENT:  alter tablefn add constraint pk_x primary key (x);
+2022-01-18 12:25:46.738 MSK [1787] ERROR:  syntax error at or near "py" at character 1
+2022-01-18 12:25:46.738 MSK [1787] STATEMENT:  py
+	;
+2022-01-19 11:21:20.583 MSK [1777] LOG:  received smart shutdown request
+2022-01-19 11:21:20.594 MSK [1787] FATAL:  terminating connection due to administrator command
+2022-01-19 11:21:20.594 MSK [1787] LOG:  could not send data to client: Broken pipe
+2022-02-15 11:28:45.384 MSK [1790] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-02-15 11:28:45.385 MSK [1790] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-02-15 11:28:45.393 MSK [1790] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-02-15 11:28:45.412 MSK [1791] LOG:  database system was interrupted; last known up at 2022-01-18 12:26:27 MSK
+2022-02-15 11:28:45.564 MSK [1791] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-02-15 11:28:45.573 MSK [1791] LOG:  redo starts at 0/1B81278
+2022-02-15 11:28:45.573 MSK [1791] LOG:  invalid record length at 0/1B81360: wanted 24, got 0
+2022-02-15 11:28:45.573 MSK [1791] LOG:  redo done at 0/1B81328 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-02-15 11:28:45.606 MSK [1790] LOG:  database system is ready to accept connections
+2022-02-15 11:46:46.879 MSK [1862] FATAL:  database "g394-podypolskiy" does not exist
+2022-02-15 12:13:44.473 MSK [1863] ERROR:  syntax error at or near "FOREIGHN" at character 44
+2022-02-15 12:13:44.473 MSK [1863] STATEMENT:  ALTER TABLE mark ADD CONSTRAINT fkMarkStud FOREIGHN KEY (stud) REFERENCES student(id);
+2022-02-15 12:13:44.474 MSK [1863] ERROR:  syntax error at or near "FOREIGHN" at character 44
+2022-02-15 12:13:44.474 MSK [1863] STATEMENT:  ALTER TABLE mark ADD CONSTRAINT fkMarkExam FOREIGHN KEY (exam) REFERENCES exam(id);
+2022-02-15 12:13:44.474 MSK [1863] ERROR:  syntax error at or near "FOREIGHN" at character 44
+2022-02-15 12:13:44.474 MSK [1863] STATEMENT:  ALTER TABLE exam ADD CONSTRAINT fkExamDisc FOREIGHN KEY (discript) REFERENCES discipline(id);
+2022-02-15 12:14:17.435 MSK [1863] ERROR:  table "student" does not exist
+2022-02-15 12:14:17.435 MSK [1863] STATEMENT:  drop table student
+	;
+2022-02-15 12:15:26.787 MSK [1863] ERROR:  table "student" does not exist
+2022-02-15 12:15:26.787 MSK [1863] STATEMENT:  drop table student
+	;
+2022-02-15 12:16:01.084 MSK [1863] ERROR:  column "discript" referenced in foreign key constraint does not exist
+2022-02-15 12:16:01.084 MSK [1863] STATEMENT:  ALTER TABLE exam ADD CONSTRAINT fkExamDisc FOREIGN KEY (discript) REFERENCES discipline(id);
+2022-02-15 12:16:12.728 MSK [1863] ERROR:  table "studen" does not exist
+2022-02-15 12:16:12.728 MSK [1863] STATEMENT:  drop table studen
+	;
+2022-02-15 12:16:17.677 MSK [1863] ERROR:  cannot drop table student because other objects depend on it
+2022-02-15 12:16:17.677 MSK [1863] DETAIL:  constraint fkmarkstud on table mark depends on table student
+2022-02-15 12:16:17.677 MSK [1863] HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2022-02-15 12:16:17.677 MSK [1863] STATEMENT:  drop table student
+	;
+2022-02-15 12:17:49.025 MSK [1863] ERROR:  relation "mark" already exists
+2022-02-15 12:17:49.025 MSK [1863] STATEMENT:  create table mark(
+		id integer Primary Key,
+		exam integer,
+		stud integer,
+		res integer
+	);
+2022-02-15 12:17:49.025 MSK [1863] ERROR:  relation "exam" already exists
+2022-02-15 12:17:49.025 MSK [1863] STATEMENT:  create table exam(
+		id integer Primary Key,
+		discrip integer,
+		ts timestamp
+	);
+2022-02-15 12:17:49.045 MSK [1863] ERROR:  constraint "fkmarkexam" for relation "mark" already exists
+2022-02-15 12:17:49.045 MSK [1863] STATEMENT:  ALTER TABLE mark ADD CONSTRAINT fkMarkExam FOREIGN KEY (exam) REFERENCES exam(id);
+2022-02-15 12:24:25.942 MSK [1863] ERROR:  syntax error at or near "squence" at character 6
+2022-02-15 12:24:25.942 MSK [1863] STATEMENT:  drop squence discrip_id
+	;
+2022-02-15 12:50:12.589 MSK [1790] LOG:  received smart shutdown request
+2022-02-15 12:50:12.598 MSK [1790] LOG:  background worker "logical replication launcher" (PID 1797) exited with exit code 1
+2022-02-15 12:50:12.598 MSK [1792] LOG:  shutting down
+2022-02-18 14:15:37.487 MSK [1775] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-02-18 14:15:37.488 MSK [1775] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-02-18 14:15:37.494 MSK [1775] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-02-18 14:15:37.505 MSK [1776] LOG:  database system shutdown was interrupted; last known up at 2022-02-15 12:50:12 MSK
+2022-02-18 14:15:37.628 MSK [1776] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-02-18 14:15:37.633 MSK [1776] LOG:  redo starts at 0/1C3CAF0
+2022-02-18 14:15:37.633 MSK [1776] LOG:  invalid record length at 0/1C3CBD8: wanted 24, got 0
+2022-02-18 14:15:37.633 MSK [1776] LOG:  redo done at 0/1C3CBA0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-02-18 14:15:37.650 MSK [1775] LOG:  database system is ready to accept connections
+2022-02-18 14:16:02.832 MSK [1785] ERROR:  syntax error at or near "USE" at character 1
+2022-02-18 14:16:02.832 MSK [1785] STATEMENT:  USE g394-podyapolskiy
+	;
+2022-02-18 14:16:11.705 MSK [1785] ERROR:  syntax error at or near "USE" at character 1
+2022-02-18 14:16:11.705 MSK [1785] STATEMENT:  USE g394-Podyapolskiy;
+2022-02-18 14:18:07.572 MSK [1799] FATAL:  database "g394-Podyapolskiy" does not exist
+2022-02-18 14:36:45.365 MSK [1872] ERROR:  relation "discip_id" already exists
+2022-02-18 14:36:45.365 MSK [1872] STATEMENT:  CREATE SEQUENCE discip_id;
+2022-02-18 14:43:10.000 MSK [1775] LOG:  received fast shutdown request
+2022-02-18 14:43:10.003 MSK [1775] LOG:  aborting any active transactions
+2022-02-18 14:43:10.004 MSK [1775] LOG:  background worker "logical replication launcher" (PID 1782) exited with exit code 1
+2022-02-18 14:43:10.004 MSK [1777] LOG:  shutting down
+2022-02-18 14:43:10.023 MSK [1775] LOG:  database system is shut down
